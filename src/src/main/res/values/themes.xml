@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NavigationBottom" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="Base.Theme.Navchenta_welcome" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Navchenta_welcome" parent="Base.Theme.Navchenta_welcome" />
+
+    <style name="Theme.Navchenta_welcome.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Navchenta_welcome.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Navchenta_welcome.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--    <style name="Theme.Navchenta_welcome.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+    <!--    <style name="Theme.Navchenta_welcome.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+</resources>
+

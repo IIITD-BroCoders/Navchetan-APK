@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.spym.navchenta_welcome.navigation.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_pretest"-->
+<!--        android:name="com.example.navchenta_welcome.navigation.ui.pretest.pretestFragment"-->
+<!--        android:label="Pre-test"-->
+<!--        tools:layout="@layout/fragment_pretest" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_posttest"-->
+<!--        android:name="com.example.navchenta_welcome.navigation.ui.posttest.posttestFragment"-->
+<!--        android:label="Post-test"-->
+<!--        tools:layout="@layout/fragment_posttest" />-->
+
+    <activity
+        android:id="@+id/nav_training"
+        android:name="com.spym.navchenta_welcome.navigation.ui.training.training"
+        android:label="Training"
+        tools:layout="@layout/activity_training" />
+
+    <activity
+        android:id="@+id/nav_resources"
+        android:name="com.spym.navchenta_welcome.navigation.ui.resources"
+        android:label="Resources"
+        tools:layout="@layout/activity_resources" />
+
+    <activity
+        android:id="@+id/nav_certificate"
+        android:name="com.spym.navchenta_welcome.navigation.ui.certificate.Certificate"
+        android:label="Training"
+        tools:layout="@layout/activity_certificate" />
+
+    <activity
+        android:id="@+id/nav_about_us"
+        android:name="com.spym.navchenta_welcome.navigation.ui.about_us"
+        android:label="AboutUs"
+        tools:layout="@layout/activity_about_us" />
+
+    <activity
+        android:id="@+id/nav_help"
+        android:name="com.spym.navchenta_welcome.navigation.ui.help"
+        android:label="Help"
+        tools:layout="@layout/activity_help" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.spym.navchenta_welcome.bottom.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.spym.navchenta_welcome.bottom.ui.dashboard.DashboardFragment"
+        android:label="Session"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.spym.navchenta_welcome.bottom.ui.notifications.NotificationsFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

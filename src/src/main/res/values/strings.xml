@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Navchetna</string>
+    <string name="title_activity_scrolling_singup">Scrolling_singup_Activity</string>
+    <string name="singup">
+        Dont have account ? <u><font color='#FF0000'>Sign Up</font></u>
+    </string>
+    <string name="large_text">
+        zsdxfghuijnb dnklfhbdnserklfcji;fnvj xcfgvbiuonj e5rcvbo;n fxcvbknlm fghjkl dxfcgvbkj
+        fcgvhbjnk hvbjnkm gvhbnkml,
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SPYM NGO</string>
+    <string name="nav_header_subtitle">info@spym.org</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_bottom_nav">BottomNav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Session</string>
+    <string name="title_notifications">Profile</string>
+    <string name="session_1">   If you are a Trainee
+        join your Trainee center </string>
+    <string name="session_2">   If you are a Trainer
+        Create your Trainee  center </string>
+    <string name="task">Session</string>
+    <string name="create_tasks">Create Session</string>
+    <string name="title">Title</string>
+    <string name="data">data</string>
+    <string name="timer">timer</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_task">New session</string>
+    <string name="to_edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="empty_text">empty</string>
+    <string name="Lorem_Ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="aboutus_spym">
+Established in 1985, Society for Promotion of Youth and Masses (SPYM) is a national organization working on drug demand reduction among children and adults and provides rehabilitation support for recovery.
+
+SPYM with the support from the Ministry of Social Justice and Empowerment (MSJE), Government of India developed a series of training modules titled “NAVCHETNA: A New Consciousness on Life Skills and Drug Education for School Children”. The evidence-based training modules have been divided into Upper Primary (Grade VI to Grade VIII: containing three modules) and Secondary Schools (Grade IX to Grade XI: containing six modules) in order to address the gap between planning and execution of existing training packages for adults in India that fail to match the specific needs of teachers to educate school children to strengthen life skills with the inclusion of drug use issues.
+
+The “NAVCHETNA” module was launched on July 30, 2022 in Chandigarh by Shri. Amit Shah, Hon’ble Minister of Home Affairs. Dr. Rajesh Kumar, Executive Director, SPYM received felicitation for contributing towards Child Welfare through this module by Shri. Amit Shah, Hon’ble Minister of Home Affairs.</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:icon="@drawable/ic_menu_camera"-->
+<!--            android:title="@string/menu_home" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_pretest"-->
+<!--            android:icon="@drawable/baseline_library_books_24"-->
+<!--            android:title="Pre-test" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_posttest"-->
+<!--            android:icon="@drawable/baseline_menu_book_24"-->
+<!--            android:title="Post-test" />-->
+    </group>
+
+
+    <item
+        android:title = "Details">
+        <menu>
+<!--            <item-->
+<!--                android:id = "@+id/nav_training"-->
+<!--                android:title="Training"-->
+<!--                android:icon="@drawable/baseline_lightbulb_circle_24"-->
+<!--                />-->
+            <item
+                android:id = "@+id/nav_resources"
+                android:title="Resources"
+                android:icon="@drawable/baseline_attach_file_24"
+                />
+        </menu>
+    </item>
+
+
+    <item
+        android:title = "Others">
+        <menu>
+            <item
+                android:id = "@+id/nav_certificate"
+                android:title="Certificate"
+                android:icon="@drawable/baseline_school_24"
+                />
+            <item
+                android:id = "@+id/nav_about_us"
+                android:title="About Us"
+                android:icon="@drawable/baseline_info_24"
+                />
+            <item
+                android:id = "@+id/nav_help"
+                android:title="Help"
+                android:icon="@drawable/baseline_question_mark_24"
+                />
+        </menu>
+    </item>
+
+
+</menu>

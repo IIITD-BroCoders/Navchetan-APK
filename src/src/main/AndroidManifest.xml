@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.spym.navchenta_welcome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Navchenta_welcome"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".about_us_iiitd"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/array" />
+
+        <activity
+            android:name=".Section_main"
+            android:exported="false" />
+        <activity
+            android:name=".LanguageSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LanguageSelectionActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".feedback_screen"
+            android:exported="false" />
+        <activity
+            android:name=".bottom.BottomNav"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav" />
+        <activity
+            android:name=".Sing_up"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".navigation.Drawer"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Verificationpage"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Feed"
+            android:exported="false" />
+        <activity
+            android:name=".LanguageSelectionActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".feedback_form"
+            android:exported="false" /> <!-- <activity android:name=".navigation.ui.resources" -->
+        <!-- android:exported="false"/> -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QuestionAnswer"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".quiz_page"
+            android:exported="true" />
+        <activity
+            android:name=".quiz_postest"
+            android:exported="true" />
+        <activity
+            android:name=".AddTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name=".navigation.ui.training.training"
+            android:exported="false" />
+        <activity
+            android:name=".navigation.ui.resources"
+            android:exported="false" />
+        <activity
+            android:name=".navigation.ui.help"
+            android:exported="false" />
+        <activity
+            android:name=".navigation.ui.about_us"
+            android:exported="false" />
+        <activity
+            android:name=".navigation.ui.certificate.Certificate"
+            android:exported="false" />
+        <activity
+            android:name=".Feedback_refrence_page"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".TimerService"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="WrongManifestParent" />
+    </application>
+
+</manifest>

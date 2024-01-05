@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/a_pt2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+    tools:context=".QuestionAnswer">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pretest_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="QUIZ"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/total_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Q"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pretest_title" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_rectangular_loop"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pretest_title">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="348dp"
+                    android:layout_height="91dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Lorem ipsum hello how are u my name is bukubuku and i’m here to solve a quiz???"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- Add buttons Ans B, Ans C, Ans D, Ans E, and Ans F here -->
+
+                <Button
+                    android:id="@+id/ans_A"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Ans A"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    app:cornerRadius="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.511"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/question"
+                    app:strokeWidth="?android:attr/buttonCornerRadius" />
+
+                <Button
+                    android:id="@+id/ans_B"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Ans B"
+                    app:cornerRadius="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="@+id/ans_A"
+                    app:layout_constraintStart_toStartOf="@+id/ans_A"
+                    app:layout_constraintTop_toBottomOf="@+id/ans_A"
+                    app:strokeWidth="?android:attr/buttonCornerRadius" />
+
+                <Button
+                    android:id="@+id/ans_C"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Ans C"
+                    app:cornerRadius="10dp"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="@+id/ans_A"
+                    app:layout_constraintStart_toStartOf="@+id/ans_A"
+                    app:layout_constraintTop_toBottomOf="@+id/ans_B"
+                    app:strokeWidth="?android:attr/buttonCornerRadius" />
+
+                <Button
+                    android:id="@+id/ans_D"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    app:cornerRadius="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="@color/white"
+                    android:textSize="10sp"
+                    android:text="Ans D"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/ans_A"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/ans_A"
+                    app:layout_constraintTop_toBottomOf="@+id/ans_C"
+                    app:layout_constraintVertical_bias="0.083"
+                    app:strokeWidth="?android:attr/buttonCornerRadius" />
+
+                <Button
+                    android:id="@+id/ans_E"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:cornerRadius="10dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Ans E"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/ans_A"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/ans_A"
+                    app:layout_constraintTop_toBottomOf="@+id/ans_D"
+                    app:layout_constraintVertical_bias="0.083"
+                    app:strokeWidth="?android:attr/buttonCornerRadius" />
+
+                <Button
+                    android:id="@+id/ans_F"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    app:cornerRadius="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Ans F"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/ans_A"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/ans_A"
+                    app:layout_constraintTop_toBottomOf="@+id/ans_E"
+                    app:layout_constraintVertical_bias="0.083"
+                    app:strokeWidth="?android:attr/buttonCornerRadius" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/submit_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#0D8F84"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/cardView2"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+        <Button
+            android:id="@+id/final_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#0D8F84"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.455"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2"
+            app:layout_constraintVertical_bias="0.506" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

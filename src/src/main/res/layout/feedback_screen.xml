@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnFinalEvaluation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Final Evaluation"
+        android:onClick="onFinalEvaluationClick" />
+
+    <Button
+        android:id="@+id/btnYouTube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFinalEvaluation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="YouTube"
+        android:onClick="onYouTubeClick" />
+
+    <Button
+        android:id="@+id/btnWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnYouTube"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Website"
+        android:onClick="onWebsiteClick" />
+
+    <Button
+        android:id="@+id/btnFeedbackForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnWebsite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Feedback Form"
+        android:onClick="onFeedbackFormClick" />
+
+</RelativeLayout>

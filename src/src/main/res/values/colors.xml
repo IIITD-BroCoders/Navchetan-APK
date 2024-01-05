@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_colour">#FFFFFFFF</color>
+    <color name="button_colour">#343434</color>
+    <color name ="lightselemon">#FFA07A</color>
+    <color name="orange">#DF9D4A</color>
+    <color name="options">#5e6df6</color>
+    <color name="underline">#BDB8B8</color>
+    <color name="purple">#4D3EAF</color>
+    <color name="light_black">#3B3B3B</color>
+    <color name="red">#FF0000</color>
+    <color name="colorAccent">#4885ed</color>
+    <color name="purplee">#62B3E2</color>
+
+
+</resources>
