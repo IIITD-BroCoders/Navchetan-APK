@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "89276326866",
+    "project_id": "navchenta-welcome",
+    "storage_bucket": "navchenta-welcome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89276326866:android:2d55731ec7b97d9ca29e0b",
+        "android_client_info": {
+          "package_name": "com.example.navchenta_welcome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89276326866-0qh1ra189f42uicq5s5norq59t2fin9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfDAsS2934td-GJLBsBCtd7Z2oQWz-ixA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89276326866-0qh1ra189f42uicq5s5norq59t2fin9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
